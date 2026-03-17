@@ -1,0 +1,207 @@
+html, body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'main';
+    src: url('../fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.background_auth {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-auth{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    outline: 3px solid #5aa9d0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    animation: slideUp 0.7s ease-out
+}
+
+.text{
+    font-family: "main", "Segoe UI";
+    color: black;
+}
+
+.text--one{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.text--two{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.text--three{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text--four{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #5aa9d0;
+    font-weight: 500;
+}
+.input{
+    border-radius: 5px;
+    border: 2px solid #5aa9d0;
+    width: 320px;
+    height: 35px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 300;
+    font-size: 18px;
+    text-indent: 15px;
+    font-family: "main", "Segoe UI";
+}
+.input:hover {
+    border: 2px solid #5096b8;
+}
+.input:focus {
+    border: 2px solid #3e7691;
+    outline: none;
+    box-shadow: 0 3px 15px rgba(90, 169, 208, 0.3);
+    font-weight: 400;
+    font-size: 20px;
+}
+.input--one{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input--two{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input--duplicate-one{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input--duplicate-two{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input--duplicate-three{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.button{
+    font-family: "main", "Segoe UI";
+    color: black;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 5px;
+    background: none; 
+    border: 2px solid #5aa9d0;
+}
+.button:hover {
+    border: 2px solid #5096b8;
+}
+.button:active {
+    border: 2px solid #3e7691;
+    outline: none;
+    box-shadow: 0 3px 15px rgba(90, 169, 208, 0.3);
+    font-weight: 350;
+}
+
+
+.logo-image{
+    position: absolute;
+    top: 52%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+
+.pswd-image{
+    position: absolute;
+    top: 64%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+
+.logo-image-duplicate{
+    position: absolute;
+    top: 39%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+.pswd-image-duplicate{
+    position: absolute;
+    top: 51%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+.pswd-image-duplicate1{
+    position: absolute;
+    top: 63%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+}
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 40%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
