@@ -7,12 +7,12 @@ eye_button.addEventListener('click', () => {
         case "password":
             input_password.type = "text";
             input_passworddup.type = "text";
-            eye_button.style.backgroundImage = "url('../images/eye_crossed_out.jpg')";
+            eye_button.style.backgroundImage = "url('/images/eye_crossed_out.jpg')";
             break;
         case "text":
             input_password.type = "password";
             input_passworddup.type = "password";
-            eye_button.style.backgroundImage = "url('../images/eye.jpg')";
+            eye_button.style.backgroundImage = "url('/images/eye.jpg')";
             break;
     }
 });
